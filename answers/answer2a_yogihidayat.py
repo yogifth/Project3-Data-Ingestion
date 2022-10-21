@@ -26,7 +26,7 @@ create_schema_sql_final = create_schema_sql.format(tuple(list_schema2)).replace(
 # init Postgres connection
 conn = pg.connect(database="shipping_orders",
                 user="postgres",
-                password="yogi200997",
+                password="postgres",
                 host="127.0.0.1",
                 port="5432")
 
